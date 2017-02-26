@@ -12,11 +12,11 @@ if(production) {
 
 module.exports = {
   "PRODUCTION": production,
-  "DATABASE_URL": process.env.DATABASE_URL || "postgres://bustabit:testing123@127.0.0.1:5432/bustabitdb",
+  "DATABASE_URL": process.env.DATABASE_URL || "postgres://bitormiss:testing123@127.0.0.1:5432/bitormiss",
   "BIP32_DERIVED": process.env.BIP32_DERIVED_KEY,
   "AWS_SES_KEY": process.env.AWS_SES_KEY,
   "AWS_SES_SECRET": process.env.AWS_SES_SECRET,
-  "CONTACT_EMAIL": process.env.CONTACT_EMAIL || "robert.a.bowell@gmail.com",
+  "CONTACT_EMAIL": process.env.CONTACT_EMAIL || "dietkinnie@gmail.com",
   "SITE_URL": process.env.SITE_URL || "http://localhost:3841",
   "ENC_KEY": process.env.ENC_KEY || "devkey",
   "SIGNING_SECRET": process.env.SIGNING_SECRET || "secret",
